@@ -1,5 +1,6 @@
-def test(x):
+def add(x):
     y = 0
     for i in range(x):
-        y += i
+        for j in range(x):
+            y += i
     return y

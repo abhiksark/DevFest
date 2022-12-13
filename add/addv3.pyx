@@ -1,6 +1,8 @@
-cpdef int test(int x):
-    cdef int y = 0
-    cdef int i
+cpdef int add(int x):
+    cdef:
+        int i, j, y = 0
+
     for i in range(x):
-        y +=i
+        for j in range(x):
+            y += i
     return y
