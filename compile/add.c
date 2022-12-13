@@ -1,6 +1,11 @@
 #include "add.h"
 
-int add(int a, int b)
+int add(int a)
 {
-    return a + b;
+    int sum = 0;
+    for (int i = 0; i < a; i++)
+    {
+        sum += i;
+    }
+    return sum;
 }
