@@ -1,4 +1,3 @@
-
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -30,4 +29,5 @@ int main(int argc, char ** argv) {
         printf("Result is %d\n", result);
     }
     Py_Finalize();
-    retur
+    return 0;
+}
